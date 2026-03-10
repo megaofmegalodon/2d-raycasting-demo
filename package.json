@@ -1,23 +1,23 @@
 {
-  "name": "2d-raycasting-demo",
-  "version": "1.0.0",
-  "description": "simple 2d raycasting demo",
-  "homepage": "https://github.com/megaofmegalodon/2d-raycasting-demo#readme",
-  "bugs": {
-    "url": "https://github.com/megaofmegalodon/2d-raycasting-demo/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/megaofmegalodon/2d-raycasting-demo.git"
-  },
-  "license": "MIT",
-  "author": "megaofmegalodon",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "esbuild": "^0.27.3"
-  }
+    "name": "2d-raycasting-demo",
+    "version": "1.0.0",
+    "description": "simple 2d raycasting demo",
+    "homepage": "https://github.com/megaofmegalodon/2d-raycasting-demo#readme",
+    "bugs": {
+        "url": "https://github.com/megaofmegalodon/2d-raycasting-demo/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/megaofmegalodon/2d-raycasting-demo.git"
+    },
+    "license": "MIT",
+    "author": "megaofmegalodon",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "watch": "node watch.mjs"
+    },
+    "devDependencies": {
+        "esbuild": "^0.27.3"
+    }
 }
