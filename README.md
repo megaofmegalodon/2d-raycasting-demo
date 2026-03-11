@@ -65,10 +65,9 @@ $$u = \frac{(r_x - s_x)d_y - (r_y - s_y)d_x}{h_x d_y - d_x h_y}$$
 Calculating $t$ and $u$ identifies an intersection on an infinite line, but we must verify the hit is valid within our specific segment:
 
 * **Forward Direction ($t \ge 0$):** Ensures the ray is pointing toward the wall.
-    - If $t < 0$, the ray is point away from the wall.
-* **Within Segment ($0 \le u \le 1$):** Ensures the contact point is actually on the wall segment and not just on the infinite line it's on.
+    - If $t < 0$, the ray is pointing away from the wall.
+* **Within Segment ($0 \le u \le 1$):** Ensures the contact point is actually on the wall segment and not on the infinite line it's on.
     * $u = 0$: Hit the start of the segment.
     * $u = 1$: Hit the end of the segment.
 
-> [!IMPORTANT]
 > **Note:** Do not forget to check for if the denominator equals **zero**.
