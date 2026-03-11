@@ -15,7 +15,8 @@
     "type": "commonjs",
     "main": "index.js",
     "scripts": {
-        "watch": "node watch.mjs"
+        "watch": "node watch.mjs",
+        "build": "node build.mjs"
     },
     "devDependencies": {
         "esbuild": "^0.27.3"
