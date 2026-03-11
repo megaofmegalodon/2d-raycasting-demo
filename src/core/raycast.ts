@@ -3,6 +3,8 @@ import Point from "../geometry/Point";
 import Vector from "../geometry/Vector";
 
 export default function raycast(rayOrigin: Point, rayVector: Vector) {
+    // We could default this to the end of the screen instead of a random value,
+    // but this works for what I'm doing.
     let closestT = 1e3;
 
     for (let i = 0, len = segments.length; i < len; i++) {
