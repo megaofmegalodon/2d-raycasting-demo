@@ -6,6 +6,10 @@ It simulates how light behaves by casting rays from a specific source and calcul
 This technique is the foundation for 2D lighting effects, line of sight mechanics,
 and is a early method for rendering 3D like perspectives from a 2D map.
 
+<p align="center">
+    <img src="demo.gif" width="300">
+</p>
+
 ## Getting Started
 ### Prerequisite(s):
 - Node.js
