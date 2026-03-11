@@ -1,4 +1,4 @@
-# 2d-raycating-demo
+# 2d-raycasting-demo
 
 ## Overview
 This project is a 2D visualization of raycasting.
