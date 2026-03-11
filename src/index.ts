@@ -2,8 +2,8 @@ import LineSegment, { segments } from "./geometry/LineSegment";
 import Point from "./geometry/Point";
 import RenderSystem, { myCanvas } from "./rendering/RenderSystem";
 
-export const screenWidth = 1280 * .75;
-export const screenHeight = 720 * .75;
+export const screenWidth = 1280 * .7;
+export const screenHeight = 720 * .7;
 
 export const myMouse = new Point(0, 0);
 
