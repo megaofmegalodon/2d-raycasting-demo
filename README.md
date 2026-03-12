@@ -57,7 +57,7 @@ One for the x-axis and one for the y-axis:
 2. $r_y + td_y = s_y + uh_y$
 
 ### 3. Solving the System
-By isolating the variables through algebraic substitution, we define the following formulas to find our distances:
+By isolating the variables through basic algebra, we define the following formulas to find our distances:
 
 $$t = \frac{(s_x - r_x)h_y - (s_y - r_y)h_x}{h_x d_y - d_x h_y}$$
 
